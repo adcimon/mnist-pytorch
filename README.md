@@ -3,7 +3,7 @@
 Handwritten digit recognition neural network trained on the MNIST dataset using PyTorch.
 
 Requirements.
-* Python 3.8.12
+* Python
 * PyTorch
 ```
 conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
