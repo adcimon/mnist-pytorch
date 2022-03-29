@@ -50,7 +50,7 @@ def main():
     args = parser.parse_args()
 
     print('+------------------------------')
-    print('| Settings')
+    print('| Arguments')
     print('+------------------------------')
     for arg in vars(args):
         print('{}: {}'.format(arg.replace('_', ' ').capitalize(), getattr(args, arg)))
